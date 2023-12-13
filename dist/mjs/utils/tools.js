@@ -1,6 +1,6 @@
 import { Buffer } from "buffer";
-import { encodeBase58BTC, decodeBase58BTC, encodeBase32RFC, decodeBase32RFC, encodeBase64URL, decodeBase64URL, } from "./basetools";
-import { getSubdomainFromUrl } from "./url";
+import { encodeBase58BTC, decodeBase58BTC, encodeBase32RFC, decodeBase32RFC, encodeBase64URL, decodeBase64URL, } from "./basetools.js";
+import { getSubdomainFromUrl } from "./url.js";
 /**
  * Converts a number into a Buffer representation with a specified buffer size.
  * Any leading zero bytes are removed from the Buffer.

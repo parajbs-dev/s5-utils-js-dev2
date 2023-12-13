@@ -1,5 +1,5 @@
 import mime from "mime/lite";
-import { trimPrefix } from "./string";
+import { trimPrefix } from "./string.js";
 /**
  * Get the file mime type. In case the type is not provided, try to guess the
  * file type based on the extension.

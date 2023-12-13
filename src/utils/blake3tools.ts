@@ -10,9 +10,9 @@ import {
   decodeCIDWithPrefixZ,
   decodeCIDWithPrefixU,
   decodeCIDWithPrefixB,
-} from "./tools";
+} from "./tools.js";
 
-import { mhashBlake3Default, cidTypeRaw } from "./constants";
+import { mhashBlake3Default, cidTypeRaw } from "./constants.js";
 
 /**
  * Calculates the BLAKE3 hash of a file.

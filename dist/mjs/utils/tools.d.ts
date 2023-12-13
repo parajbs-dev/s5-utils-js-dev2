@@ -1,4 +1,4 @@
-/// <reference types="node" />
+/// <reference types="node" resolution-mode="require"/>
 import { Buffer } from "buffer";
 /**
  * Converts a number into a Buffer representation with a specified buffer size.

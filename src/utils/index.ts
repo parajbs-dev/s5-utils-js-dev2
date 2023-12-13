@@ -10,7 +10,7 @@ export {
   decodeBase32RFC,
   encodeBase64URL,
   decodeBase64URL,
-} from "./basetools";
+} from "./basetools.js";
 
 // blake3tools exports.
 export {
@@ -29,32 +29,32 @@ export {
   convertS5CidToMHashB64url,
   convertS5CidToB3hashHex,
   getAllInfosFromCid,
-} from "./blake3tools";
+} from "./blake3tools.js";
 
-export type { ResponseAllCidsFromCid } from "./blake3tools";
+export type { ResponseAllCidsFromCid } from "./blake3tools.js";
 
 // blobtools exports.
 export {
   createVideoElementFromBlob,
   createVideoPageInNewTab,
   createDownloadFromBlob,
-} from "./blobtools";
+} from "./blobtools.js";
 
 // datatools exports.
 export {
   isValidData,
   checkResponseData,
   incrementAndCheckRevision,
-} from "./datatools";
+} from "./datatools.js";
 
-export { getFileMimeType } from "./file";
+export { getFileMimeType } from "./file.js";
 
 // jsontools exports.
 export {
   JSONparse,
   JSONstringify,
   isJson,
-} from "./jsontools";
+} from "./jsontools.js";
 
 // string exports.
 export {
@@ -65,7 +65,7 @@ export {
   uint8ArrayToStringUtf8,
   encodeUtf8String,
   generateRandomString,
-} from "./string";
+} from "./string.js";
 
 // tools exports.
 export {
@@ -84,9 +84,9 @@ export {
   convertB64urlToB32rfcCid,
   convertB32rfcToB64urlCid,
   convertDownloadDirectoryInputCid,
-} from "./tools";
+} from "./tools.js";
 
-export type { JsonData } from "./types";
+export type { JsonData } from "./types.js";
 
 // url exports.
 export {
@@ -102,9 +102,9 @@ export {
   ensureUrl,
   ensureUrlPrefix,
   makeUrl,
-} from "./url";
+} from "./url.js";
 
-export { throwValidationError, validationError } from "./validation";
+export { throwValidationError, validationError } from "./validation.js";
 
 // constants exports.
 export {
@@ -165,4 +165,4 @@ export {
   storageLocationTypeBridge,
   MAX_REVISION,
   MAX_REVISION_DELETE,
-} from "./constants";
+} from "./constants.js";

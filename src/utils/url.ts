@@ -1,5 +1,5 @@
-import { trimSuffix } from "./string";
-import { throwValidationError } from "./validation";
+import { trimSuffix } from "./string.js";
+import { throwValidationError } from "./validation.js";
 
 export const DEFAULT_S5_PORTAL_URL = "http://localhost:5050";
 

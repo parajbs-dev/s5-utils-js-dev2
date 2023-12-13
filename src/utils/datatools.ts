@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { MAX_REVISION } from "./constants";
+import { MAX_REVISION } from "./constants.js";
 
 /**
  * Check if the provided data is not an empty string, not null, not undefined,

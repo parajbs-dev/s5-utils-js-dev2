@@ -10,7 +10,7 @@ export {
   decodeBase32RFC,
   encodeBase64URL,
   decodeBase64URL,
-} from "./utils/basetools";
+} from "./utils/basetools.js";
 
 // blake3tools exports.
 export {
@@ -29,32 +29,32 @@ export {
   convertS5CidToMHashB64url,
   convertS5CidToB3hashHex,
   getAllInfosFromCid,
-} from "./utils/blake3tools";
+} from "./utils/blake3tools.js";
 
-export type { ResponseAllCidsFromCid } from "./utils/blake3tools";
+export type { ResponseAllCidsFromCid } from "./utils/blake3tools.js";
 
 // blobtools exports.
 export {
   createVideoElementFromBlob,
   createVideoPageInNewTab,
   createDownloadFromBlob,
-} from "./utils/blobtools";
+} from "./utils/blobtools.js";
 
 // datatools exports.
 export {
   isValidData,
   checkResponseData,
   incrementAndCheckRevision,
-} from "./utils/datatools";
+} from "./utils/datatools.js";
 
-export { getFileMimeType } from "./utils/file";
+export { getFileMimeType } from "./utils/file.js";
 
 // jsontools exports.
 export {
   JSONparse,
   JSONstringify,
   isJson,
-} from "./utils/jsontools";
+} from "./utils/jsontools.js";
 
 // string exports.
 export {
@@ -65,7 +65,7 @@ export {
   uint8ArrayToStringUtf8,
   encodeUtf8String,
   generateRandomString,
-} from "./utils/string";
+} from "./utils/string.js";
 
 // tools exports.
 export {
@@ -84,9 +84,9 @@ export {
   convertB64urlToB32rfcCid,
   convertB32rfcToB64urlCid,
   convertDownloadDirectoryInputCid,
-} from "./utils/tools";
+} from "./utils/tools.js";
 
-export type { JsonData } from "./utils/types";
+export type { JsonData } from "./utils/types.js";
 
 // url exports.
 export {
@@ -102,9 +102,9 @@ export {
   ensureUrl,
   ensureUrlPrefix,
   makeUrl,
-} from "./utils/url";
+} from "./utils/url.js";
 
-export { throwValidationError, validationError } from "./utils/validation";
+export { throwValidationError, validationError } from "./utils/validation.js";
 
 // constants exports.
 export {
@@ -165,4 +165,4 @@ export {
   storageLocationTypeBridge,
   MAX_REVISION,
   MAX_REVISION_DELETE,
-} from "./utils/constants";
+} from "./utils/constants.js";

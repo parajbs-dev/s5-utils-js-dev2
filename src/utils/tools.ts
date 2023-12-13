@@ -7,9 +7,9 @@ import {
   decodeBase32RFC,
   encodeBase64URL,
   decodeBase64URL,
-} from "./basetools";
+} from "./basetools.js";
 
-import { getSubdomainFromUrl } from "./url";
+import { getSubdomainFromUrl } from "./url.js";
 
 /**
  * Converts a number into a Buffer representation with a specified buffer size.

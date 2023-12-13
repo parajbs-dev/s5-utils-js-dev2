@@ -1,4 +1,4 @@
-/// <reference types="node" />
+/// <reference types="node" resolution-mode="require"/>
 import { Buffer } from "buffer";
 /**
  * Calculates the BLAKE3 hash of a file.

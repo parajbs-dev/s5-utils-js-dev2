@@ -2,6 +2,7 @@
   "name": "s5-utils-js-dev",
   "version": "0.1.0-beta8-3-3-5",
   "description": "S5 Utils Javascript",
+  "type": "module",
   "types": "dist/mjs/index.d.ts",
   "module": "dist/mjs/index.js",
   "exports": {
@@ -25,8 +26,8 @@
     "prettier": "prettier --write src/*.ts && prettier --write src/utils/*.ts",
     "prepublishOnly": "yarn && yarn build",
     "test": "echo test",
-    "webpack": "npx webpack --config ./webpack.config.js",
-    "webpack-index": "npx webpack --config ./webpack.index.config.js"
+    "webpack": "npx webpack --config ./webpack.config.cjs",
+    "webpack-index": "npx webpack --config ./webpack.index.config.cjs"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
@@ -57,7 +58,7 @@
   "dependencies": {
     "@noble/hashes": "^1.3.1",
     "buffer": "^6.0.3",
-    "mime": "^3.0.0"
+    "mime": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",

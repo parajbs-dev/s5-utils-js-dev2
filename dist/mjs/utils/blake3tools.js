@@ -1,7 +1,7 @@
 import { blake3 } from "@noble/hashes/blake3";
 import { Buffer } from "buffer";
-import { numToBuf, bufToNum, encodeCIDWithPrefixZ, encodeCIDWithPrefixU, encodeCIDWithPrefixB, decodeCIDWithPrefixZ, decodeCIDWithPrefixU, decodeCIDWithPrefixB, } from "./tools";
-import { mhashBlake3Default, cidTypeRaw } from "./constants";
+import { numToBuf, bufToNum, encodeCIDWithPrefixZ, encodeCIDWithPrefixU, encodeCIDWithPrefixB, decodeCIDWithPrefixZ, decodeCIDWithPrefixU, decodeCIDWithPrefixB, } from "./tools.js";
+import { mhashBlake3Default, cidTypeRaw } from "./constants.js";
 /**
  * Calculates the BLAKE3 hash of a file.
  * @param file - The file to calculate the hash from.
